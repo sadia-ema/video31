@@ -1,0 +1,239 @@
+body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Work Sans', sans-serif;
+}
+.logo{
+    width: 40px;
+    margin-right: 5px;
+}
+ul.navbar-nav.jon.menu.mb-2.mb-lg-0 {
+    
+    margin-left: 232px;
+   
+}
+.button {
+   
+    display: inline-block;
+    margin-left: 255px;
+}
+.banner {
+    background: url(./img/mbr-10.jpg) no-repeat center center;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.banner::after{
+    content: "";
+    background: rgba(0, 0, 0, 0.383);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.about-section{
+    background: #F7F9FF;
+}
+.about-paragraph {
+    padding: 130px 20px;
+}
+.feature{
+    width: 250px;
+    
+}
+.portfolio-item{
+    position: relative;
+}
+    .portfolio-item::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgba(70, 66, 66, 0.555);
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        visibility: hidden;
+        transition: .3s;
+    }
+    .portfolio-item:hover::after{
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    .portfolio-item img{
+        max-width: 100%;
+    }
+
+
+    /* slider */
+    .slider-section {
+
+    }
+    .slider-item {
+        position: relative;
+        height: 300px;
+        box-shadow: 3px 3px 6px 0 #afacac;
+    }
+    .slider-item img{
+        max-width: 100%;
+    }
+    .left-img {
+        width: 40%;
+        overflow: hidden;
+        border-radius: 5px 0 0 5px;
+    }
+     .right-text{
+        width: 60%;
+        padding: 20px;
+     }
+     img.img {
+        height: 100%;
+        width: auto !important;
+        max-width: inherit;
+        position: relative;
+        left: -56px;
+    }
+    .form-banner.text-center {
+        
+        margin-left: -2px;
+        display: inline-block;
+    }
+    .get-app{
+        background: rgb(23, 170, 43);
+        font-size: 17px;
+        transition: .4s;
+    }
+  
+    .email-address:focus{
+        border:1px solid olivedrab;
+    }
+    /* pricing */
+    .pricing-section{
+        background: #F7F9FF;
+    }
+    
+    .pricing-item{
+        background: white;
+        padding: 63px;
+        box-shadow: 1px 0px 11.5px #8080808f;
+    }
+    .pricing-item ul {
+     padding-left: 0;
+    }
+    .pricing-item ul li{
+        list-style: none;
+        line-height: 63px;
+        }
+   
+    .pricing-button{
+   margin-top: 55px;
+}
+.pricing-item span {
+    color: #6278DF;
+    font-size: 24px;
+    width: 30px;
+    display: inline-block;
+}
+.get-app:hover{
+  background: white;
+  color: rgb(29, 127, 238);
+  box-shadow: 1px 0px 11.5px #087bc78f;
+}
+.get-app{
+    border: #087bc78f;
+}
+.email-address{
+    border: .5px solid chartreuse;
+}
+.get-access{
+    box-shadow: 1px 0px 11.5px #8080808f;
+    display: inline-block;
+    border: none;
+    padding: 15px 50px;
+    font-weight: 600;
+}
+
+.author-info {
+    width: 230px;
+    margin: auto;
+}
+.author-info img {
+    width: 86px;
+    margin-right: 139px;
+    
+    position: relative;
+    top: 68px;
+}
+.other-info {
+    text-align: left;
+    position: relative;
+    top: -5px;
+    left: 124px;
+}
+
+.testimonial-section span {
+    color: #8080801f;
+    font-size: 85px;
+}
+.about-blogger{
+    background: #F7F9FF;
+    padding: 100px 0;
+    
+}
+.rounded-circle {
+    border-radius: 50%!important;
+    width: 154px;
+    margin-left: 22px;
+    margin-top: -64px;
+}
+.image-section {
+    width: 1270px;
+    margin: auto;
+    margin-top: 140px!important;
+}
+
+/*  About Section  */
+.about-item {
+    margin-top: 90px;
+}
+.about-item .card{}
+.about-item .card img {
+    width: 130px;
+    height: auto;
+    margin-top: -70px;
+    margin-left: 15px;
+}
+
+/*  Conent Us CSS  */
+.contnt-form-div .card{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+    padding: 40px;
+}
+.main-section-bg{
+    background-color: #f7f9ff;
+}
+.apple-img img {
+    
+    width: 580px;
+    margin: 41px 0;
+}
+.google-play{
+    background: #5BA533;
+}
+
+.common-button{
+    padding: 14px 29px;
+    border: 2px solid #5BA533;
+}
+.sobuj{
+    background: #5BA533;
+}
+.color{
+    color: #5BA533;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem 3rem 1rem;
+}
